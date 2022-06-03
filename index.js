@@ -6,7 +6,7 @@ const skills = {
     skill1:"problem solving",
     skill2:"collaboration",
     skill3:"creativity",
-    skill4:"effective communication"
+    skill4:"communication"
 }
 
 const interests = {
@@ -31,4 +31,9 @@ ht1.innerHTML = skills.skill1;
 ht2.innerHTML = skills.skill2;
 ht3.innerHTML = skills.skill3;
 ht4.innerHTML = skills.skill4;
+
+hd1.innerHTML = interests.int1;
+hd2.innerHTML = interests.int2;
+hd3.innerHTML = interests.int3;
+hd4.innerHTML = interests.int4;
 
