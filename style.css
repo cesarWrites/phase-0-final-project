@@ -76,9 +76,8 @@ body{
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     width: fit-content;
-
 }
-#main-sect #interests{
+#main-sect>#interests{
 padding-left: 10%;
 padding-top: 2%;
 padding-right: 5%;
@@ -93,12 +92,44 @@ border-top-right-radius: 50px;
 border-bottom-left-radius: 50px;
 border-bottom-right-radius: 50px;
 width: fit-content;}
+#main-sect p{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+form{
+    background: #ffffff;
+    width: fit-content;
+    height: max-content;
+    padding: 4%;
+    color: black;
+    font-size: 30px;
+    margin-top: 2%;
+    border-radius: 30px;
+}
+form input{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.btn-1{
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
 footer{
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: black;
     padding-left: 5%;
     padding-top: 5%;
     color: white;
+    justify-content: center;
+}
+form textarea{
+    margin-top: 2%;
 }
 .foot-link{
     display: flex;
@@ -114,7 +145,7 @@ padding-right: 10px;}
     list-style: none;
     margin-right: 30px;
     font-size: x-large;
-    color: #0E1658;
+    color: white;
     font-weight: 545;
 }
 footer p{
