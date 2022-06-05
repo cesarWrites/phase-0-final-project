@@ -1,6 +1,6 @@
-const h2 = document.createElement("h2");
+/*const h2 = document.createElement("h2");
 h2.textContent = "Software engineer";
-document.querySelector("body").appendChild(h2);
+document.querySelector("body").appendChild(h2);*/
 
 const skills = {
     skill1:"problem solving",
@@ -36,4 +36,20 @@ hd1.innerHTML = interests.int1;
 hd2.innerHTML = interests.int2;
 hd3.innerHTML = interests.int3;
 hd4.innerHTML = interests.int4;
+
+const list1 = document.getElementById("ls1");
+const list2 = document.getElementById("ls2");
+const list3 = document.getElementById("ls3");
+const list4 = document.getElementById('ls4');
+
+let progLang = ["HTML,CSS, C++, JavaScript"];
+let progLang1 = ["python", "R", "Hadoop"];
+let progLang2 = ["oracle", "DBMS", "mySQL"];
+let progLang3 = ["AWS", 'powerBI'];
+
+list1.innerHTML = progLang;
+list2.innerHTML = progLang1;
+list3.innerHTML = progLang2;
+list4.innerHTML = progLang3;
+
 
