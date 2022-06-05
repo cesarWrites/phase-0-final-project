@@ -68,3 +68,12 @@ function makeSubmission(){
     return false;
 }
 
+function displayDate(){
+    const txt6 = document.getElementById("p-1");
+    const txt7 = document.getElementById("p-2");
+    const currentDate = Date.now();
+    console.log(currentDate);
+    txt7.innerHTML = currentDate;
+
+}
+
