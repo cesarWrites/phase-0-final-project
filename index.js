@@ -52,4 +52,19 @@ list2.innerHTML = progLang1;
 list3.innerHTML = progLang2;
 list4.innerHTML = progLang3;
 
+var submissions = [];
+function makeSubmission(){
+    const tx1 = document.getElementById("tx-1").value;
+    const tx2 = document.getElementById("tx-2").value;
+    const tx3 = document.getElementById("tx-3").value;
+    const tx4 = document.getElementById("tx-4").value;
+
+    submissions.push(tx1);
+    submissions.push(tx2);
+    submissions.push(tx3);
+    submissions.push(tx4);
+
+    console.log(submissions);
+    return false;
+}
 
